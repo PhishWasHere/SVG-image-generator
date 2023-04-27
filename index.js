@@ -32,7 +32,7 @@ const init = () => {
   ])
   .then((answers) => {  //creates svg file based on answers
     const svg = genSVG(answers);
-    fs.writeFile('./gen/image.svg', svg, (err) => {
+    fs.writeFile('./gen/logo.svg', svg, (err) => {
       if (err) throw err; 
       console.log('SVG successfully created'); 
     });
