@@ -55,10 +55,10 @@ const init = () => {
       choices: ['circle', 'square', 'triangle'],
     },
   ])
-  
     .then((answers) => {  //calls genFile function
       genFile(answers);
     })
+
 };
 
 init() //calls init function to start program
