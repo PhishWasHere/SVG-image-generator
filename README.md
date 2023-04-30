@@ -17,7 +17,7 @@
   Generates a SVG file based on user input
 
   ## Installation
-  none
+  make a folder called "gen". Git doesnt seem to like empty folders, and I cant upload the required folder
 
   ## Usage
   Use CLI
